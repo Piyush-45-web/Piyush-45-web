@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.box{
+    height: 80%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 90%;
+    background-color:coral;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(255, 247, 0);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quotes{
+    margin: 15px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+.btn{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    
+}
+.copybtn{
+    transition: ease-in-out 0.3s;
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    border: #fff solid 1px;
+    background-color: rgb(255, 110, 57);
+    cursor: pointer;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+.copybtn:hover{
+    background-color: rgb(0, 103, 193);
+    cursor: pointer;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+#author{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.line{
+    height: 5px;
+    width: 140px;
+    background-color: rgb(255, 247, 0);
+}
+
+@media (max-width: 1200px) {
+    .box {
+        width: 80%;  /* Reduce the width on medium to large screens */
+        padding: 25px 40px;
+    }
+
+    #quotes {
+        font-size: 28px;  /* Slightly smaller font on medium screens */
+    }
+
+    #author {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%;  /* Further reduce the width on tablets */
+        padding: 20px 30px;
+    }
+
+    #quotes {
+        font-size: 24px;  /* Smaller font on tablets */
+    }
+
+    #author {
+        font-size: 16px;
+    }
+
+    .line {
+        width: 100px;  /* Shorten the line on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 95%;  /* Full width on small screens */
+        padding: 15px 20px;
+    }
+
+    h1 {
+        font-size: 24px;  /* Smaller font for title on smaller screens */
+    }
+
+    #quotes {
+        font-size: 20px;  /* Reduce font size for quotes */
+    }
+
+    #author {
+        font-size: 14px;  /* Smaller font for author */
+    }
+
+    .line {
+        width: 80px;  /* Shorten line on extra small screens */
+    }
+
+    .btn, .copybtn {
+        padding: 8px 12px;  /* Adjust button padding on small screens */
+        font-size: 14px;
+    }
+}
+
