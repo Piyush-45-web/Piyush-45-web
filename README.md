@@ -2,9 +2,9 @@
 - 👀 I’m interested in web devlopment
 - 🌱 I’m currently learning backend
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me email:- piyushkumarsingh993917@gmail.com
+- 📫 email:- piyushkumarsingh993917@gmail.com
 - 😄 Pronouns: perfect
-- ⚡ Fun fact:humour- always on
+- ⚡ Fun fact: humour- always on
 
 <!---
 Piyush-45-web/Piyush-45-web is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
