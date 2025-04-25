@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Weather Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="box">
-            <h1>Generate Quotes</h1>
-            <div class="line"></div>
-            <p id="quotes">" Loading... "</p>
-            <p id="author"></p>
-            <button class="btn">click to generate</button>
-            <button class="copybtn">copy</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <div class="weather-container">
+    <h1>🌦️ Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div class="weather-info" id="weatherInfo"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
